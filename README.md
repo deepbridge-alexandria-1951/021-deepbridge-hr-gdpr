@@ -29,14 +29,3 @@ THE AUTHOR ACCEPTS ABSOLUTELY ZERO LIABILITY FOR:
 ## Development Approach
 
 This application was architected with AI assistance. The architect specified the requirements, constraints (GDPR compliance, HR regulations, Python 3.12 standard library only), and functional specifications. The AI language model generated the implementation and documentation accordingly.
-
----
-
-## Features
-
-- **Socket-based API:** `/HR_GDPR` endpoint for compliance validation
-- **Deterministic Validation:** Rule-based HR/GDPR breach detection
-- **Audit Trail:** All operations logged to `hr_gdpr_audit.log` with ISO 8601 timestamps
-- **Payload Hashing:** SHA256 fingerprinting for integrity verification
-- **Internal Network Only:** Designed for `127.0.0.1` deployment
-- **Python 3.12 Standard Library:** Zero external dependencies
